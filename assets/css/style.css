@@ -1,0 +1,162 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  color: #00a2c6;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+header { 
+  display: inline;
+}
+
+.profile header{
+    text-align: center;
+    
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+.poto {
+  max-height: 300px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.jumbotron {
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-about {
+  border: 1px solid aqua;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  text-align: center;
+  line-height: 23px;
+}
+.text-about:hover {
+  cursor: pointer;
+}
+
+#contact {
+  padding: 80px 0;
+}
+.contact {
+  text-align: center !important;
+}
+.icon-contact {
+  justify-content: center;
+}
+.icon-contact ul li {
+  display: inline;
+  list-style: none;
+}
+.icon-contact ul li svg {
+  margin-top: 40px !;
+  margin: 10px;
+  width: 40px ;
+  padding: 1px;
+  border-radius: 50%;
+}
+.icon-contact ul li svg:hover {
+  border: 1px solid aqua;
+  box-shadow: 0px 14px 56px -11px rgb(56 189 248);
+}
+
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
